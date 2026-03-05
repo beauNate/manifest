@@ -1,5 +1,17 @@
 # manifest
 
+## 5.21.0
+
+### Minor Changes
+
+- 98503ad: Improve threshold alert email: format timestamps as MMM DD HH:MM:SS, add View Agent Dashboard button, update footer with copyright, replace text logo with PNG image. Remove Cloud badge from header.
+- 84f9388: Add pagination to Messages and Model Prices pages with shared Pagination component, cursor-based and client-side pagination primitives, filter empty state improvements, and unified provider icon system in filter bar
+
+### Patch Changes
+
+- 972477f: Filter model prices to supported providers only during pricing sync
+- d04f4c7: Fix version indicator: show plugin version in local mode, hide in cloud mode, fix upgrade command
+
 ## 5.20.0
 
 ### Minor Changes
